@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 360" fill="none">
+  <defs>
+    <radialGradient id="glow-center" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c8102e" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#c8102e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="360" rx="12" fill="#f7f8fa"/>
+
+  <!-- Subtle glow -->
+  <ellipse cx="200" cy="170" rx="180" ry="160" fill="url(#glow-center)"/>
+
+  <!-- === University building (left) === -->
+  <g transform="translate(50, 120)">
+    <!-- Main building -->
+    <rect x="10" y="60" width="90" height="70" rx="3" fill="#1a1a3a" opacity="0.12"/>
+    <!-- Roof / pediment -->
+    <polygon points="55,30 10,60 100,60" fill="#1a1a3a" opacity="0.1"/>
+    <!-- Pillars -->
+    <rect x="22" y="62" width="6" height="50" rx="1" fill="#1a1a3a" opacity="0.15"/>
+    <rect x="40" y="62" width="6" height="50" rx="1" fill="#1a1a3a" opacity="0.15"/>
+    <rect x="58" y="62" width="6" height="50" rx="1" fill="#1a1a3a" opacity="0.15"/>
+    <rect x="76" y="62" width="6" height="50" rx="1" fill="#1a1a3a" opacity="0.15"/>
+    <!-- Door -->
+    <rect x="43" y="100" width="24" height="30" rx="2" fill="#1a1a3a" opacity="0.08"/>
+    <!-- Label -->
+    <text x="55" y="155" text-anchor="middle" font-family="Noto Sans JP, sans-serif" font-size="11" font-weight="600" fill="#1a1a3a" opacity="0.5">東北大学</text>
+  </g>
+
+  <!-- === Company building (right) === -->
+  <g transform="translate(250, 120)">
+    <!-- Modern building -->
+    <rect x="10" y="40" width="85" height="90" rx="4" fill="#1a1a3a" opacity="0.12"/>
+    <!-- Windows grid -->
+    <rect x="18" y="48" width="12" height="10" rx="1" fill="#5c3a6e" opacity="0.12"/>
+    <rect x="34" y="48" width="12" height="10" rx="1" fill="#5c3a6e" opacity="0.1"/>
+    <rect x="50" y="48" width="12" height="10" rx="1" fill="#5c3a6e" opacity="0.12"/>
+    <rect x="66" y="48" width="12" height="10" rx="1" fill="#5c3a6e" opacity="0.1"/>
+    <rect x="18" y="64" width="12" height="10" rx="1" fill="#5c3a6e" opacity="0.1"/>
+    <rect x="34" y="64" width="12" height="10" rx="1" fill="#5c3a6e" opacity="0.12"/>
+    <rect x="50" y="64" width="12" height="10" rx="1" fill="#5c3a6e" opacity="0.1"/>
+    <rect x="66" y="64" width="12" height="10" rx="1" fill="#5c3a6e" opacity="0.12"/>
+    <rect x="18" y="80" width="12" height="10" rx="1" fill="#5c3a6e" opacity="0.12"/>
+    <rect x="34" y="80" width="12" height="10" rx="1" fill="#5c3a6e" opacity="0.1"/>
+    <rect x="50" y="80" width="12" height="10" rx="1" fill="#5c3a6e" opacity="0.12"/>
+    <rect x="66" y="80" width="12" height="10" rx="1" fill="#5c3a6e" opacity="0.1"/>
+    <rect x="18" y="96" width="12" height="10" rx="1" fill="#5c3a6e" opacity="0.1"/>
+    <rect x="34" y="96" width="12" height="10" rx="1" fill="#5c3a6e" opacity="0.12"/>
+    <rect x="50" y="96" width="12" height="10" rx="1" fill="#5c3a6e" opacity="0.1"/>
+    <rect x="66" y="96" width="12" height="10" rx="1" fill="#5c3a6e" opacity="0.12"/>
+    <!-- Door -->
+    <rect x="38" y="112" width="20" height="18" rx="2" fill="#1a1a3a" opacity="0.08"/>
+    <!-- Label -->
+    <text x="52" y="155" text-anchor="middle" font-family="Roboto, sans-serif" font-size="11" font-weight="600" fill="#1a1a3a" opacity="0.5">TAI</text>
+  </g>
+
+  <!-- === Connection arrows (co-creation) === -->
+  <!-- Arrow from university to center -->
+  <line x1="155" y1="190" x2="178" y2="190" stroke="#c8102e" stroke-width="1.8" opacity="0.35"/>
+  <polygon points="178,190 172,186 172,194" fill="#c8102e" opacity="0.35"/>
+
+  <!-- Arrow from company to center -->
+  <line x1="248" y1="190" x2="225" y2="190" stroke="#c8102e" stroke-width="1.8" opacity="0.35"/>
+  <polygon points="225,190 231,186 231,194" fill="#c8102e" opacity="0.35"/>
+
+  <!-- === Central chip symbol (共創 result) === -->
+  <g transform="translate(180, 168)">
+    <!-- Chip outline -->
+    <rect x="0" y="0" width="44" height="44" rx="4" fill="#1a1a3a" opacity="0.85"/>
+    <!-- Inner die -->
+    <rect x="6" y="6" width="32" height="32" rx="2" fill="none" stroke="#c8102e" stroke-width="1" opacity="0.6"/>
+    <!-- Grid cells -->
+    <rect x="9" y="9" width="12" height="12" rx="1" fill="#c8102e" opacity="0.6"/>
+    <rect x="23" y="9" width="12" height="12" rx="1" fill="#5c3a6e" opacity="0.5"/>
+    <rect x="9" y="23" width="12" height="12" rx="1" fill="#5c3a6e" opacity="0.5"/>
+    <rect x="23" y="23" width="12" height="12" rx="1" fill="#c8102e" opacity="0.6"/>
+    <!-- Pins -->
+    <line x1="15" y1="-4" x2="15" y2="0" stroke="#fff" stroke-width="1.5" opacity="0.5"/>
+    <line x1="29" y1="-4" x2="29" y2="0" stroke="#fff" stroke-width="1.5" opacity="0.5"/>
+    <line x1="15" y1="44" x2="15" y2="48" stroke="#fff" stroke-width="1.5" opacity="0.5"/>
+    <line x1="29" y1="44" x2="29" y2="48" stroke="#fff" stroke-width="1.5" opacity="0.5"/>
+    <line x1="-4" y1="15" x2="0" y2="15" stroke="#fff" stroke-width="1.5" opacity="0.5"/>
+    <line x1="-4" y1="29" x2="0" y2="29" stroke="#fff" stroke-width="1.5" opacity="0.5"/>
+    <line x1="44" y1="15" x2="48" y2="15" stroke="#fff" stroke-width="1.5" opacity="0.5"/>
+    <line x1="44" y1="29" x2="48" y2="29" stroke="#fff" stroke-width="1.5" opacity="0.5"/>
+  </g>
+
+  <!-- === Downward flow to outcomes === -->
+  <line x1="202" y1="220" x2="202" y2="248" stroke="#1a1a3a" stroke-width="1.2" opacity="0.2"/>
+  <polygon points="202,248 198,242 206,242" fill="#1a1a3a" opacity="0.2"/>
+
+  <!-- === Outcome icons === -->
+  <!-- AI brain icon -->
+  <g transform="translate(120, 258)">
+    <circle cx="22" cy="18" r="16" fill="none" stroke="#c8102e" stroke-width="1.2" opacity="0.3"/>
+    <path d="M14,14 Q18,8 22,14 Q26,8 30,14" stroke="#c8102e" stroke-width="1" fill="none" opacity="0.3"/>
+    <path d="M14,20 Q18,26 22,20 Q26,26 30,20" stroke="#c8102e" stroke-width="1" fill="none" opacity="0.3"/>
+    <line x1="22" y1="8" x2="22" y2="28" stroke="#c8102e" stroke-width="0.6" opacity="0.2"/>
+    <text x="22" y="50" text-anchor="middle" font-family="Roboto, sans-serif" font-size="9" font-weight="500" fill="#1a1a3a" opacity="0.4">AI</text>
+  </g>
+
+  <!-- Semiconductor icon -->
+  <g transform="translate(183, 258)">
+    <rect x="8" y="4" width="28" height="28" rx="3" fill="none" stroke="#5c3a6e" stroke-width="1.2" opacity="0.3"/>
+    <line x1="22" y1="0" x2="22" y2="4" stroke="#5c3a6e" stroke-width="1" opacity="0.3"/>
+    <line x1="14" y1="0" x2="14" y2="4" stroke="#5c3a6e" stroke-width="1" opacity="0.3"/>
+    <line x1="30" y1="0" x2="30" y2="4" stroke="#5c3a6e" stroke-width="1" opacity="0.3"/>
+    <line x1="22" y1="32" x2="22" y2="36" stroke="#5c3a6e" stroke-width="1" opacity="0.3"/>
+    <line x1="14" y1="32" x2="14" y2="36" stroke="#5c3a6e" stroke-width="1" opacity="0.3"/>
+    <line x1="30" y1="32" x2="30" y2="36" stroke="#5c3a6e" stroke-width="1" opacity="0.3"/>
+    <line x1="4" y1="14" x2="8" y2="14" stroke="#5c3a6e" stroke-width="1" opacity="0.3"/>
+    <line x1="4" y1="22" x2="8" y2="22" stroke="#5c3a6e" stroke-width="1" opacity="0.3"/>
+    <line x1="36" y1="14" x2="40" y2="14" stroke="#5c3a6e" stroke-width="1" opacity="0.3"/>
+    <line x1="36" y1="22" x2="40" y2="22" stroke="#5c3a6e" stroke-width="1" opacity="0.3"/>
+    <text x="22" y="50" text-anchor="middle" font-family="Roboto, sans-serif" font-size="9" font-weight="500" fill="#1a1a3a" opacity="0.4">Chip</text>
+  </g>
+
+  <!-- FPGA icon -->
+  <g transform="translate(248, 258)">
+    <rect x="6" y="4" width="28" height="28" rx="2" fill="none" stroke="#1a1a3a" stroke-width="1.2" opacity="0.3"/>
+    <!-- Grid inside -->
+    <line x1="6" y1="14" x2="34" y2="14" stroke="#1a1a3a" stroke-width="0.5" opacity="0.2"/>
+    <line x1="6" y1="22" x2="34" y2="22" stroke="#1a1a3a" stroke-width="0.5" opacity="0.2"/>
+    <line x1="16" y1="4" x2="16" y2="32" stroke="#1a1a3a" stroke-width="0.5" opacity="0.2"/>
+    <line x1="26" y1="4" x2="26" y2="32" stroke="#1a1a3a" stroke-width="0.5" opacity="0.2"/>
+    <text x="20" y="50" text-anchor="middle" font-family="Roboto, sans-serif" font-size="9" font-weight="500" fill="#1a1a3a" opacity="0.4">FPGA</text>
+  </g>
+
+  <!-- Top label -->
+  <text x="200" y="105" text-anchor="middle" font-family="Noto Sans JP, Roboto, sans-serif" font-size="13" font-weight="600" fill="#1a1a3a" opacity="0.45">Co-Creation</text>
+
+  <!-- Bottom label -->
+  <text x="200" y="340" text-anchor="middle" font-family="Roboto, sans-serif" font-size="11" font-weight="500" fill="#1a1a3a" opacity="0.35">University + Industry Collaboration</text>
+</svg>
